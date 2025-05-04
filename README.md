@@ -148,4 +148,22 @@ Continuous Integration and Continuous Deployment (CI/CD) streamline the process 
 Scalable architecture ensures that the platform can handle increasing traffic and data loads as the user base grows. By using containerization (e.g., Docker) and orchestration (e.g., Kubernetes), the application can scale dynamically without compromising performance. This enables the system to maintain reliability and performance during periods of high demand.
 
 
+## API Security
+
+### 1. Authentication
+Authentication is the process of verifying the identity of a user before granting them access to the platform. In the case of the Airbnb Clone, we will implement **token-based authentication** using JWT (JSON Web Tokens) to ensure that only authenticated users can access restricted API endpoints. This ensures that users' data remains secure and prevents unauthorized access to their accounts or sensitive information.
+
+**Why it's crucial:** Protecting user data is a top priority, and authentication ensures that only verified users can perform sensitive actions, such as booking properties or editing personal profiles.
+
+---
+
+### 2. Authorization
+Authorization determines what an authenticated user is allowed to do on the platform. In this project, we will set role-based access control (RBAC) to define different user roles (e.g., guest, host, admin) and their permissions (e.g., hosts can manage properties, while guests can only book them). This ensures that users only have access to actions that match their roles.
+
+**Why it's crucial:** Authorization ensures that each user has the appropriate permissions for their role, preventing unauthorized actions, such as a guest trying to manage a property they don't own.
+
+---
+
+### 3. Rate Limiting
+Rate limiting is a technique used to limit the number of requests a user can make to the API within a given time frame (e.g., 100 requests per minute). This will be implemente
 
