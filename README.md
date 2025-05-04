@@ -38,3 +38,18 @@ Oversees the planning, coordination, and execution of the project. Manages timel
 ### 6. Technical Writer
 Responsible for creating and maintaining technical documentation including README files, setup guides, and API documentation. Ensures information is clearly communicated to both technical and non-technical stakeholders.
 
+## Technology Stack
+
+- **Django**: A high-level Python web framework used for building scalable, secure, and maintainable web applications. In this project, it helps build the backend logic and RESTful APIs.
+  
+- **MySQL**: A relational database management system that stores and manages application data like user profiles, bookings, and listings.
+  
+- **GraphQL**: A query language for APIs that allows clients to request exactly the data they need. It enhances performance and flexibility compared to traditional REST APIs.
+  
+- **Docker**: A containerization tool used to package the application and its dependencies, ensuring it runs consistently across different environments.
+  
+- **GitHub Actions**: A continuous integration and deployment (CI/CD) tool that automates testing, building, and deployment processes.
+  
+- **Markdown**: A lightweight markup language used for creating formatted documentation, such as this `README.md` file.
+
+
