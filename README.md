@@ -18,7 +18,7 @@ The Airbnb Clone Project is a full-stack web application designed to simulate th
 - **Version Control:** Git + GitHub
 - **Documentation:** Markdown, GitHub Wiki
 
-## Team Ro
+## Team Roles
 
 ### 1. Backend Developer
 Responsible for building and maintaining the server-side logic of the application. This includes creating APIs, handling authentication, and ensuring performance, scalability, and security of the backend systems. In this project, they will work with Django and REST/GraphQL APIs.
