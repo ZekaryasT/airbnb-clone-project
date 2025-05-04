@@ -107,4 +107,45 @@ A property can have many reviews, and each review is linked to one user and one 
 
 Each payment is tied to a booking.
 
+## Feature Breakdown
+
+### 1. User Management
+User management allows users to register, log in, and update their profiles with secure authentication. This ensures that both hosts and guests can access and manage their accounts while maintaining privacy and security. It also allows users to have different roles, such as host or guest, to enable personalized functionality.
+
+---
+
+### 2. Property Management
+The property management feature enables hosts to add and manage their property listings on the platform. Hosts can upload property details like descriptions, prices, availability, and photos. This helps create a comprehensive catalog of properties for guests to browse and book.
+
+---
+
+### 3. Booking System
+The booking system enables guests to search and book properties based on specific criteria like location, price, and availability. This feature ensures the platform can efficiently handle multiple users and reservations, preventing double bookings, and helping guests book properties easily. It is essential for enabling transactions and interactions between users.
+
+---
+
+### 4. Reviews and Ratings
+This feature allows guests to leave reviews and rate the properties they stay at, contributing to a system of trust and transparency. Positive reviews help boost a property’s reputation, while feedback can guide property owners in improving their listings. It also helps future guests make informed decisions when booking.
+
+---
+
+### 5. Payment Integration
+Payment integration enables secure transactions for bookings through supported payment systems. This feature ensures that guests can pay for their bookings, and hosts can receive payments seamlessly. It is vital for securing financial data and processing payment statuses like successful or failed payments.
+
+---
+
+### 6. API Security
+API security ensures that all data transactions between the front-end and back-end are secure, preventing unauthorized access to sensitive information. It implements authentication and authorization mechanisms like token-based authentication to protect user data, transactions, and other sensitive features. This is essential to protect both the platform and its users from potential threats.
+
+---
+
+### 7. CI/CD Integration
+Continuous Integration and Continuous Deployment (CI/CD) streamline the process of building, testing, and deploying the application. It automates the deployment pipeline, ensuring that the platform’s code is consistently updated with minimal human error. This reduces downtime and ensures faster delivery of new features or bug fixes.
+
+---
+
+### 8. Scalable Architecture
+Scalable architecture ensures that the platform can handle increasing traffic and data loads as the user base grows. By using containerization (e.g., Docker) and orchestration (e.g., Kubernetes), the application can scale dynamically without compromising performance. This enables the system to maintain reliability and performance during periods of high demand.
+
+
 
