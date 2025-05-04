@@ -167,3 +167,33 @@ Authorization determines what an authenticated user is allowed to do on the plat
 ### 3. Rate Limiting
 Rate limiting is a technique used to limit the number of requests a user can make to the API within a given time frame (e.g., 100 requests per minute). This will be implemente
 
+
+## CI/CD Pipeline
+
+### What is CI/CD?
+**CI (Continuous Integration)** and **CD (Continuous Deployment/Delivery)** are software development practices that enable the automation of building, testing, and deploying applications. 
+
+- **Continuous Integration (CI)** involves automatically integrating code changes into the shared repository several times a day. This helps catch errors early in the development cycle and ensures that the software remains in a deployable state.
+  
+- **Continuous Delivery (CD)** ensures that the application is automatically deployed to production (or staging) environments after passing tests. It helps streamline the release process and provides fast, reliable delivery of new features and bug fixes.
+
+### Why is it important for the Airbnb Clone project?
+Implementing a CI/CD pipeline for the Airbnb Clone project ensures that we can:
+
+1. **Automate the Build and Testing Process:** New code changes are automatically tested, ensuring that bugs are caught early and code quality remains high.
+2. **Quick, Reliable Deployments:** With automated deployment, new features and fixes can be delivered faster and with fewer errors, improving the user experience.
+3. **Consistency Across Environments:** By automating deployment, we ensure that the app runs the same way in all environments (local, staging, production), reducing inconsistencies and issues.
+4. **Collaboration and Efficiency:** CI/CD pipelines allow multiple developers to work on different features concurrently without the fear of breaking the application, increasing team productivity.
+
+### Tools to Implement CI/CD:
+- **GitHub Actions:** A tool integrated with GitHub that enables you to automate workflows for building, testing, and deploying your application. GitHub Actions can be used to trigger builds on each code push and automate tests.
+  
+- **Docker:** Docker can be used to create containerized environments for development, testing, and deployment. This ensures that the application runs the same way on all machines, making the CI/CD process more reliable.
+  
+- **Jenkins:** An open-source automation server that can be used to set up CI/CD pipelines, manage builds, and automate the testing process.
+  
+- **CircleCI:** A cloud-based continuous integration service that automates the software development process, integrating code, testing it, and deploying it to production.
+
+---
+
+
