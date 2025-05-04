@@ -20,4 +20,3 @@ The Airbnb Clone Project is a full-stack web application designed to simulate th
 
 ## Author(s)
 - Zekaryas
-oject
