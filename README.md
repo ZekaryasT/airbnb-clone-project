@@ -52,4 +52,59 @@ Responsible for creating and maintaining technical documentation including READM
   
 - **Markdown**: A lightweight markup language used for creating formatted documentation, such as this `README.md` file.
 
+## Database Design
+
+### 1. Users
+- **id**: Unique identifier for each user
+- **name**: Full name of the user
+- **email**: User's email address
+- **password**: Encrypted password
+- **role**: Can be guest or host
+
+A user can create multiple properties and make multiple bookings.
+
+---
+
+### 2. Properties
+- **id**: Unique identifier for each property
+- **title**: Name or short description of the property
+- **description**: Detailed description of the property
+- **location**: Address or geographical location
+- **owner_id**: References the user who owns the property
+
+Each property belongs to one user (host) but can have many bookings and reviews.
+
+---
+
+### 3. Bookings
+- **id**: Unique identifier for each booking
+- **user_id**: References the user who made the booking
+- **property_id**: References the booked property
+- **check_in_date**: Start date of the booking
+- **check_out_date**: End date of the booking
+
+A booking is made by one user for one property.
+
+---
+
+### 4. Reviews
+- **id**: Unique identifier for each review
+- **user_id**: References the user who wrote the review
+- **property_id**: References the reviewed property
+- **rating**: Numerical score
+- **comment**: Optional text feedback
+
+A property can have many reviews, and each review is linked to one user and one property.
+
+---
+
+### 5. Payments
+- **id**: Unique identifier for each payment
+- **booking_id**: References the related booking
+- **amount**: Total payment amount
+- **payment_date**: Date when payment was made
+- **status**: Indicates if the payment was successful, pending, or failed
+
+Each payment is tied to a booking.
+
 
